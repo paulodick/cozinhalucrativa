@@ -18,28 +18,24 @@ O repositório guarda o conteúdo da formação (5 módulos em Markdown), a pers
 ## Regras que não mudam
 
 1. **Marca independente.** Nunca mencionar IDEPES, Instituto de Desenvolvimento Pessoal, "três pilares institucionais", certificação IDEPES ou qualquer marca anterior. Usar só a identidade Cozinha Lucrativa.
-2. **Sem promessa de resultado.** Nada de enriquecimento rápido, renda garantida, faturamento como garantia, depoimento falso, escassez falsa ou gatilho manipulativo.
+2. **Sem promessa de resultado e sem valor de faturamento.** Nada de enriquecimento rápido, renda garantida, depoimento falso, escassez falsa ou gatilho manipulativo. Não citar valor específico de faturamento nem de resultado financeiro de Denise ou de alunas. Cálculos didáticos de receita (custo, preço, margem) continuam permitidos.
 3. **Denise é personagem virtual criada com IA.** Apresentá-la sempre com essa transparência. Nunca imitar pessoa real, celebridade, chef ou criador existente. A história dela é narrativa da personagem.
 4. **Receitas em gramas**, nunca em xícaras, sempre com ficha técnica, rendimento, custo por unidade, validade e margem.
 5. **Sem alegação sanitária sem base.** Protocolo sanitário e validade devem ser coerentes com a receita.
-6. **Português do Brasil.** Usar grafia brasileira (por exemplo "maquiagem", não "maquilhagem").
+6. **Português do Brasil.** Todo conteúdo, resposta e documento em português brasileiro, com grafia e vocabulário do Brasil (por exemplo "maquiagem", não "maquilhagem").
 7. **Nunca citar "link da bio".** O convite para conhecer o material (e-books) deve ser orgânico.
 
 ## Voz e posicionamento
 
-Direto, acolhedor, prático e firme. Ensina sem humilhar e vende sem pressão artificial. Denise é "mão na massa": testa, produz e conhece ponto, textura, temperatura e rendimento. Todo conteúdo deve entregar uma técnica, decisão ou ação concreta. Evitar clichês de IA e frases vazias.
+Direto, acolhedor, prático e firme. Ensina sem humilhar. Na venda o tom pode ser assertivo, um pouco mais agressivo, sempre acolhedor: CTA claro e direto, convite firme para a decisão, sem vergonha de falar de preço e valor. O que continua proibido é a pressão artificial (escassez falsa, urgência inventada, manipulação). Denise é "mão na massa": testa, produz e conhece ponto, textura, temperatura e rendimento. Todo conteúdo deve entregar uma técnica, decisão ou ação concreta. Evitar clichês de IA e frases vazias.
 
 Ideias recorrentes (usar com naturalidade, sem transformar tudo em lista de bordões): confeitaria em casa não é hobby, é matemática; o olhômetro é o inimigo invisível; quem não calcula o próprio tempo paga para trabalhar; valor percebido começa antes da primeira mordida.
 
 ## Conflitos entre documentos
 
-Se `Denise.md` e o contexto mestre divergirem, vale o contexto mestre. Pontos conhecidos em `Denise.md` que estão desalinhados e não devem ser copiados:
+Se `Denise.md` e o contexto mestre divergirem, vale o contexto mestre. Já foram corrigidos em `Denise.md`: o valor específico de faturamento (removido), a grafia de Portugal (agora português do Brasil) e o tom de venda (assertivo e acolhedor). Resta uma pendência: a seção "Instruções para o ChatGPT" em `Denise.md` ainda cita outra ferramenta.
 
-- cita faturamento mensal específico (R$ 15.000): o contexto mestre proíbe apresentar faturamento ou resultados como garantia;
-- fala em "vitrine agressiva de vendas": o contexto mestre pede venda sem pressão artificial;
-- traz instruções dirigidas ao ChatGPT e grafia de Portugal.
-
-Avisar o Paulo quando encontrar uma divergência nova, em vez de escolher em silêncio. Sugerir a correção do `Denise.md`, sem alterá-lo sem pedido.
+Avisar o Paulo quando encontrar uma divergência nova, em vez de escolher em silêncio.
 
 ## Estética (conteúdo visual)
 
