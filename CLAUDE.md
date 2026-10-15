@@ -13,6 +13,7 @@ O repositório guarda o conteúdo da formação (5 módulos em Markdown), a pers
 - `MASTER_CONTEXT_CLAUDE_COZINHA_LUCRATIVA.md`: fonte principal de verdade. Identidade, posicionamento, voz, módulos, direção editorial e visual, regras de vídeo, segurança e validação. Ler antes de produzir qualquer conteúdo.
 - `Denise.md`: ficha da persona (história, voz, vocabulário).
 - `README.md`: apresentação curta do projeto.
+- `INSTAGRAM/ROTEIROS_5_REELS_DENISE.md`: série de 5 Reels aprovados (roteiro por tempo, texto na tela, áudio e legenda). Próxima etapa: prompts para Veo.
 - `MDs/COZINHA_LUCRATIVA/`: os 5 módulos (`MODULO_01_BOLOS_E_DOCES.md`, `MODULO_02_MASSAS_E_MOLHOS.md`, `MODULO_03_SALGADOS_FINOS.md`, `MODULO_04_SOBREMESAS_DE_POTE.md`, `MODULO_05_PANIFICACAO_ARTESANAL.md`) e o README da coleção com a matriz editorial de 23 páginas por módulo.
 
 ## Regras que não mudam
