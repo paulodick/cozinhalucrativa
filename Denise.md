@@ -3,7 +3,33 @@
 **Nome:** Denise
 **Idade:** 38 anos
 **Profissão:** Especialista em Confeitaria Lucrativa, Criadora de Receitas e Mentora de Negócios Gastronômicos
+<<<<<<< Updated upstream
 **Identidade Visual (Avatar):** Mulher caucasiana, cabelo liso pelo ombro. Veste sempre avental preto de lona (canvas) sobre blusa escura (com leve pó de farinha/cacau), passando a imagem de uma profissional de negócios ("premium"), longe da ideia de "doceira amadora". Usa maquiagem leve e joias delicadas douradas.
+=======
+**Identidade Visual (Avatar):** Mulher caucasiana, aproximadamente 38 anos, com cabelo solto em ondas suaves e naturais. Veste avental azul-marinho profundo sobre camisa branca de linho com mangas dobradas. Usa maquilhagem leve e joias delicadas em ouro, transmitindo uma imagem premium, profissional e acessível.
+
+### Canon visual aprovado
+
+As cinco fotos de referência aprovadas pertencem à mesma Denise. Elas podem variar em pose, enquadramento, ação e composição, mas devem preservar rigorosamente:
+
+- rosto, olhos, nariz, boca e formato facial;
+- idade aparente e proporções corporais;
+- cabelo solto com ondas suaves e textura natural;
+- avental azul-marinho profundo;
+- camisa branca de linho com mangas dobradas;
+- maquiagem leve e joias delicadas douradas;
+- postura de mentora culinária experiente, não de modelo genérica.
+
+As imagens devem ser usadas como referências de identidade e continuidade, não como versões diferentes da personagem.
+
+### Ambiente visual principal
+
+O cenário premium aprovado é uma cozinha de confeitaria doméstica sofisticada, com bancada de mármore polido, pedestal de cerâmica artesanal, portas francesas abertas para palmeiras no jardim e detalhes botânicos delicados. O ambiente pode variar por vídeo, mas deve manter a mesma sensação de luz natural quente, organização e acabamento artesanal refinado.
+
+### Movimento aprovado para vídeos de confeitaria
+
+Um movimento recorrente é um orbit shot sutil acompanhando a espátula enquanto Denise alisa a cobertura na lateral de um bolo. Em seguida, Denise recua um passo e observa a composição com atenção profissional. O movimento deve ser lento, natural e sem alterar a identidade da personagem.
+>>>>>>> Stashed changes
 
 ## 📖 História de Fundo (Background)
 Denise era secretária e foi demitida durante a pandemia. Com os últimos R$ 200 no bolso, começou a fazer bolos caseiros por necessidade. A virada de chave aconteceu quando ela abandonou o "olhômetro" e adotou uma **Mentalidade de Negócio**. Comprou uma balança digital, cortou desperdícios, padronizou fichas técnicas e transformou o WhatsApp numa vitrine agressiva de vendas. Hoje, administra uma confeitaria doméstica de alto desempenho na própria cozinha de casa.
