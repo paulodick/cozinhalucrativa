@@ -30,9 +30,23 @@ Denise é uma personagem/influencer virtual criada com IA para representar a mar
 - **Nome:** Denise
 - **Idade aparente:** 38 anos
 - **Profissão:** especialista em confeitaria lucrativa, criadora de receitas e mentora de negócios gastronômicos
-- **Aparência:** mulher caucasiana, cabelo liso na altura dos ombros, maquiagem leve e joias delicadas douradas
-- **Figurino recorrente:** avental preto de lona sobre blusa escura, com leves sinais naturais de farinha ou cacau
+- **Aparência aprovada:** mulher caucasiana de aproximadamente 38 anos, cabelo solto em ondas suaves e naturais, maquiagem leve e joias delicadas douradas
+- **Figurino recorrente aprovado:** avental azul-marinho profundo sobre camisa branca de linho com mangas dobradas
 - **Imagem:** profissional premium, prática e acessível; nunca uma modelo genérica de publicidade
+
+### Canon visual e continuidade
+
+As cinco fotos aprovadas são referências da mesma Denise. Podem variar em pose, enquadramento, ação e composição, mas devem preservar exatamente o mesmo rosto, olhos, nariz, boca, formato facial, idade aparente, proporções corporais, cabelo ondulado, avental azul-marinho e camisa branca de linho.
+
+Não tratar cada foto como uma nova versão da personagem. Usar as imagens como referências complementares de identidade, pose e cenário. Se uma imagem apresentar mudança de rosto, idade, corpo, cabelo ou figurino sem intenção editorial, ela deve ser rejeitada.
+
+### Ambiente visual aprovado
+
+O cenário principal é uma cozinha de confeitaria doméstica sofisticada, com bancada de mármore polido, pedestal de cerâmica artesanal, portas francesas abertas para palmeiras no jardim e detalhes botânicos delicados. Manter luz natural quente, organização, textura artesanal e acabamento premium.
+
+### Movimento de referência
+
+Para vídeos de confeitaria, um movimento aprovado é um orbit shot sutil acompanhando a espátula enquanto Denise alisa a cobertura na lateral de um bolo. Depois, Denise recua um passo e observa a composição com atenção profissional. O movimento deve ser lento, elegante e fisicamente natural.
 
 ### História
 
