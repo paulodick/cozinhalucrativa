@@ -2,10 +2,10 @@
 
 Voz única para padronizar todos os vídeos. Uso: criar a voz no **Voice Design**, salvar em "My Voices" e aplicar nos áudios dos takes com o **Voice Changer** (speech-to-speech), que mantém o tempo da fala e a sincronia labial.
 
-## Prompt da voz (colar no Voice Design)
+## Prompt da voz (colar no Voice Design, em português)
 
 ```
-A warm, confident adult Brazilian woman in her late thirties, native São Paulo Brazilian Portuguese accent. Rich, full, slightly husky mid-low voice with a firm, assertive presence: a seasoned mentor who knows exactly what she is talking about. Calm, steady and unhurried pace, clear articulation, natural pauses for emphasis. Underneath the strength, a caring, motherly warmth, with a gentle smile audible in the voice. Intimate close-microphone sound, studio quality, no background noise. Authoritative but never harsh, never shouting, no vocal fry, no robotic tone.
+Mulher brasileira adulta, por volta dos 38 anos, com sotaque gaúcho do Rio Grande do Sul, natural e marcante. Voz quente, encorpada e levemente rouca, de tom médio-grave, com presença firme e segura: uma mentora experiente que sabe exatamente do que está falando. Ritmo calmo, constante e sem pressa, dicção clara, pausas naturais para dar peso às frases. Por baixo da força, um acolhimento carinhoso e maternal, com um sorriso perceptível na voz. Som íntimo, de microfone próximo, qualidade de estúdio, sem ruído de fundo. Autoritária, mas nunca dura; nunca grita, sem voz arrastada, sem tom robótico.
 ```
 
 ## Texto de amostra (campo de texto para pré-visualização, em português)
@@ -21,6 +21,11 @@ Cozinhar com amor e pagar tudo do próprio bolso não é generosidade. É preju�
 3. Se ficar dura demais, acrescente "softer, more tender" ao prompt e gere de novo. Se ficar mole demais, acrescente "more commanding, more projection".
 4. Aplique a voz com o **Voice Changer** nos áudios dos takes e sincronize no CapCut.
 5. Use sempre a mesma voz salva em todos os vídeos da série.
+
+## Sobre o sotaque gaúcho
+- O Voice Design pode não reproduzir o sotaque regional com precisão. Gere várias opções e escolha a que mais se aproxima.
+- O Voice Changer troca o timbre, mas mantém a entonação e o sotaque do áudio original. Por isso, os prompts de vídeo agora pedem sotaque gaúcho ao Veo, para o áudio de origem já carregar esse jeito de falar. O Veo pode não acertar; ouça os takes.
+- Se o sotaque não vier, o caminho é gerar a fala direto no Text to Speech do ElevenLabs com a voz salva e usar como narração em off.
 
 ## Cuidados
 - A voz é de uma personagem virtual. Não use o nome nem a voz de pessoa real, e não clone voz de ninguém.
