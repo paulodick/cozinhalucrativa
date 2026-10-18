@@ -54,7 +54,7 @@ Código completo e funcionando, com instruções curtas de uso. No final, liste 
 ## 1b. Versão em inglês do prompt do app (toda a interface em português do Brasil)
 
 ```
-Build a complete web app called "Estúdio de Avatares da Lulu" (Lulu's Avatar Studio), shown in the top bar and the browser tab title for creating AI avatars and bulk-generating images (up to 20 per batch) of the same person in different scenes, outfits and formats, with a consistent identity.
+Build a complete web app called "Estúdio de Avatares da Lulu" (Lulu's Avatar Studio) for creating AI avatars and bulk-generating images (up to 20 per batch) of the same person in different scenes, outfits and formats, with a consistent identity. Show the app name in the top bar and as the browser tab title.
 
 LANGUAGE: Write all code, comments and variable names in English. EVERYTHING the user sees must be in Brazilian Portuguese (pt-BR): button names, menu items, tab names, dropdown options, field labels, placeholders, tooltips, status badges, dialogs, confirmations, empty states, toasts and error messages. No English text may appear anywhere in the interface. Use the exact pt-BR strings given in quotes below; for anything not quoted, write natural pt-BR yourself. Keep all UI strings in one translations file, so other languages can be added later.
 
