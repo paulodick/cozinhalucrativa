@@ -27,10 +27,10 @@ Quando terminar, gere o código completo e explique em poucas linhas como usar.
 
 ```
 [BASE]
-Using the attached reference photos, create a photorealistic image of the same woman, Denise (about 38). Keep her face, eyes, nose, mouth, face shape, skin tone, body proportions and natural hair color exactly identical to the references, so she is clearly the same person. Her clothing, hairstyle, makeup and jewelry change in every image and are described under LOOK; do not copy the clothes, hairstyle or background of the reference photos. Vertical 9:16, waist-up medium shot, Denise slightly off-center with safe space for captions, looking toward the camera with a calm, confident, welcoming expression. Photorealistic, natural skin texture, warm natural light, shallow depth of field, natural hands with five fingers, realistic utensils. No text, logos, watermarks or legible writing.
+Using the attached reference photos, create a photorealistic image of the same woman, Denise (about 38). Keep her face, eyes, nose, mouth, face shape, skin tone, body proportions, natural hair color and shoulder-length hair cut exactly identical to the references, so she is clearly the same person. Her clothing, makeup and jewelry change in every image and are described under LOOK; the hairstyle may also change (down, waves, ponytail, bun, braid, clip), but always with the same hair color and the same shoulder-length cut, so every photo looks taken in the same period. Do not copy the clothes, hairstyle or background of the reference photos. Vertical 9:16, waist-up medium shot, Denise slightly off-center with safe space for captions, looking toward the camera with a calm, confident, welcoming expression. Photorealistic, natural skin texture, warm natural light, shallow depth of field, natural hands with five fingers, realistic utensils. No text, logos, watermarks or legible writing.
 
 [1] Fogão de barro
-LOOK: a terracotta cotton blouse with rolled sleeves under a brown linen apron, hair in a loose low braid over one shoulder, minimal natural makeup, a wooden bead bracelet and no other jewelry.
+LOOK: a terracotta cotton blouse with rolled sleeves under a brown linen apron, hair in a short loose low braid over one shoulder, minimal natural makeup, a wooden bead bracelet and no other jewelry.
 SETTING: a rustic countryside kitchen with a traditional whitewashed clay wood-burning stove, a blackened cast-iron pot simmering, soft wisps of smoke, copper utensils on the wall. Denise stirs the pot with a long wooden spoon and glances at the camera. Warm firelight mixed with soft window daylight.
 
 [2] Jardim ao entardecer
@@ -54,11 +54,11 @@ LOOK: a mustard sleeveless blouse and light jeans, hair in a top knot wrapped wi
 SETTING: a sunny apartment balcony with potted herbs, a small bistro table, a cup of coffee and a tray of brigadeiros. Denise holds the tray with both hands.
 
 [7] Pomar pela manhã
-LOOK: a light denim shirt with rolled sleeves, hair in a long high ponytail, almost bare-faced fresh makeup, no jewelry except a thin ring.
+LOOK: a light denim shirt with rolled sleeves, hair in a high ponytail, almost bare-faced fresh makeup, no jewelry except a thin ring.
 SETTING: an orange orchard in soft morning light. Denise holds a wicker basket full of oranges and looks toward the camera.
 
 [8] Sítio com chimarrão
-LOOK: a warm deep-green knit sweater under a checkered kitchen apron, hair in one loose side braid, minimal makeup, small silver stud earrings.
+LOOK: a warm deep-green knit sweater under a checkered kitchen apron, hair in one short loose side braid, minimal makeup, small silver stud earrings.
 SETTING: a southern Brazilian countryside kitchen with a rustic wooden table, a chimarrão gourd and a kettle, a freshly baked loaf of bread. Denise kneads dough on the table.
 
 [9] Balcão de confeitaria
@@ -102,7 +102,7 @@ LOOK: a fitted black top with a lightweight camel blazer, hair sleek and straigh
 SETTING: a rooftop terrace at sunset, the city skyline softly blurred. Denise holds a coffee cup and a notebook, thoughtful and confident.
 
 [19] Horta
-LOOK: an olive utility shirt over a white tee and denim, hair in a low braid, bare-faced fresh look, no jewelry.
+LOOK: an olive utility shirt over a white tee and denim, hair in a short low braid, bare-faced fresh look, no jewelry.
 SETTING: a vegetable garden with raised beds. Denise cuts fresh basil with small scissors and looks up at the camera.
 
 [20] Atacarejo
