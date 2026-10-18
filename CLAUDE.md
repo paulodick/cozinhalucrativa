@@ -15,7 +15,7 @@ O repositório guarda o conteúdo da formação (5 módulos em Markdown), a pers
 - `README.md`: apresentação curta do projeto.
 - `INSTAGRAM/ROTEIROS_5_REELS_DENISE.md`: série de 5 Reels aprovados (roteiro por tempo, texto na tela, áudio e legenda). Roteiros base.
 - `INSTAGRAM/PRODUCAO_5_REELS_PROMPTS.md`: fichas de produção, takes, prompt neutro, prompts para Gemini/Veo e adaptação para Higgsfield de cada Reel, mais o teste de continuidade de Denise.
-- `INSTAGRAM/10_REELS_FLOW_DENISE.md`: 10 Reels em formato simples (cena única, 2 ou 3 takes) com textos, prompts prontos para o Google Flow, legendas e plano de cota. Usa a aparência aprovada atual de Denise.
+- `INSTAGRAM/10_REELS_FLOW_DENISE.md`: 10 Reels em série numerada "A conta de quem cozinha para vender" (cena única, 2 takes, números do Módulo 1 conferidos) com textos, prompts prontos para o Google Flow, legendas e plano de cota. Usa a aparência aprovada atual de Denise.
 - `assets/denise/reference-images/`: imagens e vídeos de referência aprovados de Denise.
 - `MDs/COZINHA_LUCRATIVA/`: os 5 módulos (`MODULO_01_BOLOS_E_DOCES.md`, `MODULO_02_MASSAS_E_MOLHOS.md`, `MODULO_03_SALGADOS_FINOS.md`, `MODULO_04_SOBREMESAS_DE_POTE.md`, `MODULO_05_PANIFICACAO_ARTESANAL.md`) e o README da coleção com a matriz editorial de 23 páginas por módulo.
 
