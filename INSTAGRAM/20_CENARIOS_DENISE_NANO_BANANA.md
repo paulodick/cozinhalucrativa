@@ -118,7 +118,7 @@ SETTING: a kitchen counter with a phone on a small tripod and a soft ring light 
 ### 16. Aula prática
 
 ```
-LOOK: a crisp white chef's jacket with rolled sleeves, no readable embroidery, hair in a neat bun under no hat, light makeup, no dangling jewelry.
+LOOK: a crisp white chef's jacket with rolled sleeves, no readable embroidery, hair in a neat bun, light makeup, no dangling jewelry.
 SETTING: a bright teaching kitchen with a long worktable and aprons on hooks; a few students softly blurred in the background. Denise demonstrates piping on a cake.
 ```
 
