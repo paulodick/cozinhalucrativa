@@ -11,7 +11,7 @@
 ## 2. Take 1 (gancho, 15 palavras)
 Cole no Flow:
 ```
-Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. She rests both hands on the counter and leans in slightly. Looking into the camera, she says in Brazilian Portuguese, direct, kind but firm: "Cozinhar com amor e pagar tudo do próprio bolso não é generosidade. É prejuízo bem-intencionado." Static camera. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
+Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. She rests both hands on the counter and leans in slightly. Looking into the camera, she says in Brazilian Portuguese, direct, kind but firm: "Cozinhar com amor e pagar tudo do próprio bolso não é generosidade. É prejuízo bem-intencionado." Static camera. Her voice: a warm, calm adult woman, mid-low pitch, natural São Paulo Brazilian Portuguese accent, steady medium pace, the same voice in every clip. Quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
 ```
 **Aprovar se:** rosto e roupa batem com as referências, mãos sem deformação, a fala sai completa e em português do Brasil, boca sincronizada. Baixe o clipe.
 
@@ -19,9 +19,16 @@ Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, 
 1. No Flow, use o **último quadro do take 1** como imagem inicial (opção de extrair frame ou "usar como início"). Isso mantém rosto, luz e posição.
 2. Cole:
 ```
-Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. She straightens up, soft smile, slow nod. Looking into the camera, she says in Brazilian Portuguese, warm and sure: "Com método, o mesmo amor pode pagar as suas contas. Eu te mostro como." Static camera with a very slow push-in. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
+Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. She straightens up, soft smile, slow nod. Looking into the camera, she says in Brazilian Portuguese, warm and sure: "Com método, o mesmo amor pode pagar as suas contas. Eu te mostro como." Static camera with a very slow push-in. Her voice: a warm, calm adult woman, mid-low pitch, natural São Paulo Brazilian Portuguese accent, steady medium pace, the same voice in every clip. Quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
 ```
 **Aprovar se:** a voz parece a mesma do take 1, o sorriso aparece no fim e a frase "Eu te mostro como" não é cortada. Se a voz mudar, gere de novo antes de partir para outro ajuste.
+
+## 3b. Se a voz ainda ficar diferente entre os takes
+1. **Descrição fixa de voz:** os prompts já trazem a mesma descrição de voz. Não mude essa frase entre takes.
+2. **Gere variações do take 2:** faça 2 ou 3 versões e escolha a que mais se aproxima da voz do take 1. O take 1 é a âncora.
+3. **Troca de voz na edição (mais confiável):** extraia o áudio de cada take e passe por um conversor de voz (speech-to-speech, como o do ElevenLabs) para uma voz única. Isso mantém o tempo da fala e a sincronia com os lábios. Confira se o plano gratuito da ferramenta permite o uso comercial antes de publicar.
+4. **Acabamento:** aplique a mesma equalização nos dois takes e um tom de ambiente leve por baixo do vídeo inteiro. Isso esconde diferenças pequenas.
+5. **Plano B:** se nada resolver, troque a fala por narração em off com uma voz só, e deixe a Denise em ação na tela, sem falar para a câmera.
 
 ## 4. Edição (CapCut, grátis)
 1. Emende take 1 e take 2 com corte seco, sem transição. Corte 0,3 s de silêncio no início e no fim.
