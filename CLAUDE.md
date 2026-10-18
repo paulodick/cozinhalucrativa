@@ -15,6 +15,8 @@ O repositório guarda o conteúdo da formação (5 módulos em Markdown), a pers
 - `README.md`: apresentação curta do projeto.
 - `INSTAGRAM/ROTEIROS_5_REELS_DENISE.md`: série de 5 Reels aprovados (roteiro por tempo, texto na tela, áudio e legenda). Roteiros base.
 - `INSTAGRAM/PRODUCAO_5_REELS_PROMPTS.md`: fichas de produção, takes, prompt neutro, prompts para Gemini/Veo e adaptação para Higgsfield de cada Reel, mais o teste de continuidade de Denise.
+- `INSTAGRAM/10_REELS_FLOW_DENISE.md`: 10 Reels em formato simples (cena única, 2 ou 3 takes) com textos, prompts prontos para o Google Flow, legendas e plano de cota. Usa a aparência aprovada atual de Denise.
+- `assets/denise/reference-images/`: imagens e vídeos de referência aprovados de Denise.
 - `MDs/COZINHA_LUCRATIVA/`: os 5 módulos (`MODULO_01_BOLOS_E_DOCES.md`, `MODULO_02_MASSAS_E_MOLHOS.md`, `MODULO_03_SALGADOS_FINOS.md`, `MODULO_04_SOBREMESAS_DE_POTE.md`, `MODULO_05_PANIFICACAO_ARTESANAL.md`) e o README da coleção com a matriz editorial de 23 páginas por módulo.
 
 ## Regras que não mudam
@@ -35,7 +37,7 @@ Ideias recorrentes (usar com naturalidade, sem transformar tudo em lista de bord
 
 ## Conflitos entre documentos
 
-Se `Denise.md` e o contexto mestre divergirem, vale o contexto mestre. Já foram corrigidos em `Denise.md`: o valor específico de faturamento (removido), a grafia de Portugal (agora português do Brasil) e o tom de venda (assertivo e acolhedor). Resta uma pendência: a seção "Instruções para o ChatGPT" em `Denise.md` ainda cita outra ferramenta.
+Se `Denise.md` e o contexto mestre divergirem, vale o contexto mestre. Já foram corrigidos em `Denise.md`: o valor específico de faturamento (removido), a grafia de Portugal (agora português do Brasil) e o tom de venda (assertivo e acolhedor). Resta uma pendência: a seção "Instruções para o ChatGPT" em `Denise.md` ainda cita outra ferramenta. Atenção: `Denise.md` está com marcadores de conflito de merge (`<<<<<<<`, `=======`, `>>>>>>>`) não resolvidos e mantém uma versão antiga da aparência junto com a nova. Vale a aparência do contexto mestre.
 
 Avisar o Paulo quando encontrar uma divergência nova, em vez de escolher em silêncio.
 
@@ -45,6 +47,7 @@ Cozinha doméstica profissional, realista e organizada; luz quente e natural; pa
 
 ## Vídeo (Instagram, 9:16)
 
+- Aparência aprovada de Denise: cabelo solto em ondas suaves, maquiagem leve, joias douradas delicadas, avental azul-marinho profundo sobre camisa branca de linho com mangas dobradas. Referências em `assets/denise/reference-images/`. Todo prompt deve usar essa aparência.
 - Manter Denise consistente em rosto, idade aparente, cabelo, corpo, figurino, voz, sotaque e personalidade.
 - Planos curtos, ações simples, espaço seguro para texto, fala sincronizada com o gesto.
 - Criar primeiro um prompt neutro e depois adaptar separadamente para Gemini/Veo e Higgsfield. Não presumir que o mesmo prompt funciona nas duas. Registrar falhas e ajustes.

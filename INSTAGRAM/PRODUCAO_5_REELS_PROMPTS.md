@@ -1,5 +1,7 @@
 # Produção dos 5 Reels de Denise — fichas e prompts
 
+> **Atenção:** a descrição de Denise neste arquivo (cabelo liso, avental preto de lona) está desatualizada. A aparência aprovada hoje é a do `MASTER_CONTEXT_CLAUDE_COZINHA_LUCRATIVA.md`: cabelo solto em ondas suaves, avental azul-marinho profundo e camisa branca de linho com mangas dobradas. Para gerar, use os blocos de `10_REELS_FLOW_DENISE.md`.
+
 Complementa `ROTEIROS_5_REELS_DENISE.md` (roteiro por tempo, texto na tela, áudio, legenda e hashtags). Este arquivo traz o que falta para produzir: ficha de cada vídeo, takes, prompt neutro, prompts para Gemini/Veo, adaptação para Higgsfield e negativos.
 
 ## 1. Notas técnicas (conferidas na documentação do Google)
