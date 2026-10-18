@@ -51,6 +51,55 @@ ENTREGA
 Código completo e funcionando, com instruções curtas de uso. No final, liste em poucas linhas o que depende de cota, custo ou do modelo escolhido, e quais suposições você fez.
 ```
 
+## 1b. Versão em inglês do prompt do app (interface em português do Brasil)
+
+```
+Build a complete web app called "Estúdio de Avatares IA" (AI Avatar Studio) for creating AI avatars and bulk-generating images (up to 20 per batch) of the same person in different scenes, outfits and formats, with a consistent identity.
+
+LANGUAGE: Write all code, comments and variable names in English. All user-facing text (labels, buttons, messages, errors, placeholders, tooltips) must be in Brazilian Portuguese (pt-BR). Use the exact pt-BR strings I give in quotes. Structure the app so the UI strings live in one translations file, so other languages can be added later.
+
+STACK AND LOOK
+React + TypeScript + Tailwind, the @google/genai SDK, IndexedDB (idb library) as the local database, and JSZip for ZIP files. Elegant, clean, light design: ivory, emerald green and terracotta tones, serif headings, responsive and accessible, with well-handled loading, empty and error states.
+
+1. HOME SCREEN
+Two large cards side by side: "Criar Avatar" and "Usar Avatar Existente" (the second is disabled, with a hint, when no avatars exist yet). Below, a row of saved avatars (3x4 thumbnail + name). Top menu: "Início", "Avatares", "Galeria", "Configurações".
+
+2. CREATE AVATAR (its own page)
+Fields: "Nome do Avatar" (required, unique); a large prompt box to describe the avatar (apparent age, features, hair, style); an optional "Regras fixas do avatar" box; two options checked by default: "A roupa, a maquiagem e as joias podem variar nas cenas" and "O penteado pode variar, mas a cor e o comprimento do cabelo ficam iguais".
+Below, three optional drag-and-drop upload boxes for pre-existing avatars: "Rosto 3x4", "Corpo inteiro" and "Perfil lateral". Each uploaded image counts as already approved for that slot. When photos are uploaded, require the checkbox: "Confirmo que este avatar é uma personagem virtual ou que tenho autorização da pessoa retratada."
+Generation runs in three steps, in this order: (1) Face 3x4, 3:4 ratio, frontal gaze, light gray studio background, soft light; (2) Full body, standing and facing the camera, neutral background; (3) Side profile of the face, 90 degrees, neutral background. Steps 2 and 3 use the approved step 1, plus any uploaded photos, as the identity reference. Each step shows the image with the buttons "Aprovar", "Regenerar" and "Trocar por foto enviada". If all three images come from uploads, skip generation and go straight to saving. Once all three are approved, the "Salvar avatar" button stores name, prompt, rules, options and the 3 images in the database. Allow editing, regenerating a single step, and deleting the avatar (with confirmation).
+
+3. USE EXISTING AVATAR (its own page)
+A selector showing each avatar's name and 3x4 thumbnail. After choosing one, show its 3 base images in a side strip.
+Prompt input in two tabs: "Campo único" (paste everything at once) and "Um campo por imagem" (up to 20 editable fields, with add, remove and reorder). The single field accepts an optional [BASE] block followed by numbered blocks such as "[1] Title", "LOOK:" and "SETTING:". It must also accept paragraphs separated by a blank line, by "---", or a numbered list. Show "N cenários detectados" and convert everything into the individual, editable fields before generating. Warn when there are more than 20.
+Options: format and resolution (section 4); variations per scene (default 1); mode "Revisar uma a uma" (default: generate one image and wait for the decision) or "Gerar tudo e revisar depois"; pause between calls (default 4 s); buttons "Iniciar", "Pausar" and "Parar".
+Generation runs as a queue, one at a time. Each call sends the model the avatar's 3 base images, an automatically built identity instruction, the scene text and the format. The identity instruction says: keep face, eyes, nose, mouth, face shape, skin tone, apparent age, body proportions, and hair color and length identical to the references; do not copy clothing, hairstyle or background from the references; no text, logos or watermarks; natural hands with five fingers. If "clothing can vary" is on, clothing, makeup and jewelry follow the scene description. If "hairstyle can vary" is on, only the hairstyle changes, always keeping the same hair color and length so all images look like they were taken in the same period.
+Each scene becomes a card with its number, title, status ("Na fila", "Gerando", "Aguardando decisão", "Aprovada", "Pendente", "Falhou"), the image, and the buttons "Aprovar", "Regenerar", "Deixar pendente" (rejects and skips to the next one) and "Ver/editar prompt". Pending cards are highlighted and can be resumed later with "Gerar pendentes". On approval, the final image is saved to the database (with avatar, prompt, format, resolution and date) and enables "Baixar" (PNG or JPG, user's choice). Add a "Baixar aprovadas (ZIP)" button. File names: avatar-01-title-9x16.png. The queue and statuses are also stored in the database so the work resumes after a page reload.
+
+4. FORMATS (selector with a description next to each option; default 9:16)
+- 9:16, 1080×1920: "Reels, Stories, TikTok, Shorts e Status do WhatsApp"
+- 4:5, 1080×1350: "Feed do Instagram (retrato) e Facebook"
+- 1:1, 1080×1080: "Feed do Instagram, WhatsApp e foto de perfil"
+- 3:4, 1080×1440: "Retratos, Pinterest e capas de e-book"
+- 2:3, 1080×1620: "Pinterest e pôsteres"
+- 16:9, 1920×1080: "YouTube, miniaturas, apresentações e sites"
+- 1.91:1, 1200×628: "Links no Facebook e LinkedIn"
+Resolution: "Padrão do modelo", "HD" and "Full HD" (maximum 1080 on the short side, 1920 on the long side). If the chosen model accepts a larger size parameter, use its native resolution. Otherwise, upscale with a high-quality canvas and label the image "ampliada", so it is clear that it is not native resolution.
+
+5. GALLERY AND SETTINGS
+Gallery with all approved images, filters by avatar and by format, full-size view, download, delete, and "Gerar de novo com o mesmo prompt".
+Settings: image model (text field, default gemini-2.5-flash-image, accepting any other model ID), API key (use the one from the AI Studio environment; if none, a local field), pause between calls, number of retries and default file format. Buttons "Exportar backup" and "Importar backup" (ZIP with avatars, images and prompts), because browser storage can be cleared.
+
+6. ROBUSTNESS
+Retry up to 2 times with increasing backoff on quota errors, rate limits or responses with no image. When an image is blocked for safety reasons, mark it "Falhou" with a clear pt-BR message and move on to the next one. No error may freeze the queue. A cancel button is always available. Validate all user input.
+
+7. TRANSPARENCY
+Fixed footer: "Imagens geradas por IA." Store in the database that each image is AI-generated. Do not change the user's prompt beyond the assembly described above.
+
+DELIVERY
+Complete, working code with short usage instructions in pt-BR. At the end, list briefly what depends on quota, cost or the chosen model, and which assumptions you made.
+```
+
 ## 2. Prompt único com as 20 instruções (colar na caixa de texto do app)
 
 ```
