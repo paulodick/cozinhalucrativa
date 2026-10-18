@@ -47,7 +47,7 @@ Cozinha doméstica profissional, realista e organizada; luz quente e natural; pa
 
 ## Vídeo (Instagram, 9:16)
 
-- Aparência aprovada de Denise: cabelo solto em ondas suaves, maquiagem leve, joias douradas delicadas, avental azul-marinho profundo sobre camisa branca de linho com mangas dobradas. Referências em `assets/denise/reference-images/`. Todo prompt deve usar essa aparência.
+- Aparência aprovada de Denise: cabelo solto em ondas suaves, maquiagem leve, joias douradas delicadas, avental azul-marinho profundo sobre camisa branca de linho com mangas dobradas. Referências em `assets/denise/reference-images/`. Todo prompt deve usar essa aparência. Exceção decidida pelo Paulo: nas 20 imagens de cenários (`INSTAGRAM/20_CENARIOS_DENISE_NANO_BANANA.md`) rosto, corpo e cor do cabelo são fixos, mas roupa, penteado, maquiagem e joias variam de imagem para imagem.
 - Manter Denise consistente em rosto, idade aparente, cabelo, corpo, figurino, voz, sotaque e personalidade.
 - Planos curtos, ações simples, espaço seguro para texto, fala sincronizada com o gesto.
 - Criar primeiro um prompt neutro e depois adaptar separadamente para Gemini/Veo e Higgsfield. Não presumir que o mesmo prompt funciona nas duas. Registrar falhas e ajustes.
