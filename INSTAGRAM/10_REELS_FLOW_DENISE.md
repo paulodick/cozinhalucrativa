@@ -1,23 +1,23 @@
-# 10 Reels de Denise — "A conta de quem cozinha para vender"
+# 10 Reels de Denise — "Do talento ao negócio"
 
-Série para Instagram e TikTok. Cada vídeo tem **uma ideia, uma conta e uma frase que a pessoa consegue repetir**. Os números vêm do exemplo resolvido do Módulo 1 do curso (lote de 25 brigadeiros) e foram conferidos por cálculo. Cena única, Denise falando para a câmera, 2 takes de até 8 s emendados na edição.
+Série para Instagram e TikTok. Cada vídeo fala com quem cozinha bem e ainda não vende: **reconhece o talento, nomeia o que falta (método) e convida, com firmeza e acolhimento, para a Cozinha Lucrativa**. Cena única, Denise falando para a câmera, 2 takes de até 8 s emendados na edição.
 
 ## Princípios de escrita
 
-1. Abrir com um fato ou uma pergunta concreta, nunca com um sentimento.
-2. Uma ideia por vídeo, com número quando houver número.
-3. Dizer o que costuma dar errado, sem prometer ganho. Renda extra e renda principal aparecem como possibilidade que depende de conta, preço e volume.
-4. Sem "paixão", "sonho", "liberdade" ou "transforme sua vida". Se a frase servir para qualquer perfil de culinária, ela sai.
-5. Série numerada com chamada para a próxima parte (traz seguidores). O convite ao curso aparece de forma explícita só no vídeo 10, sem "link da bio".
+1. Abrir com uma frase que a pessoa sente como verdade sobre ela.
+2. Nomear o que falta: método (preço, padrão e venda), não talento.
+3. Fechar com convite direto ao método, em tom firme e acolhedor. Preço e valor podem ser ditos sem vergonha.
+4. Sem promessa de ganho, sem valor de faturamento, sem escassez ou urgência inventada, sem "link da bio". Renda extra e principal aparecem como possibilidade que depende de conta, preço e esforço.
+5. Poucas palavras, uma ideia por vídeo, frase final forte e fácil de repetir.
 
 ## Antes de começar (uma vez só)
 
 1. Abra labs.google/flow com a sua conta e confirme que a geração de vídeo funciona sem pagar. A ajuda oficial do Google diz que quem não assina recebe 50 créditos por dia, sem acúmulo, mas duas páginas oficiais divergem sobre exigir assinatura. Nos horários de pico (11h às 14h em Brasília) usuários gratuitos podem ficar sem gerar vídeo.
 2. Escolha **8 segundos** e formato **vertical (9:16)** na tela do Flow. A duração não está nos prompts de propósito.
 3. Use uma das imagens aprovadas em `assets/denise/reference-images/` como imagem inicial do take 1, se o Flow oferecer essa opção. Para o take 2, use o último quadro do take 1.
-4. Ouça os takes juntos. Se a voz mudar de forma perceptível, refaça o take seguinte. Números falados por extenso ("um e quarenta e sete") foram escritos assim de propósito, para a voz não errar a leitura.
-5. Na edição (CapCut, grátis): emende, corte o silêncio do início e do fim e ative a legenda automática, porque muita gente assiste sem som. O "texto opcional" de cada vídeo mostra os números na tela e ajuda a retenção.
-6. Antes de publicar, revise os números contra os seus preços locais e valide cada peça pela lista do `CLAUDE.md` (Aprovado, Aprovado com ajustes ou Rejeitado, com o motivo).
+4. Ouça os takes juntos. Se a voz mudar de forma perceptível, refaça o take seguinte.
+5. Na edição (CapCut, grátis): emende, corte o silêncio do início e do fim e ative a legenda automática, porque muita gente assiste sem som. O "texto opcional" de cada vídeo ajuda na retenção.
+6. Antes de publicar, valide cada peça pela lista do `CLAUDE.md` (Aprovado, Aprovado com ajustes ou Rejeitado, com o motivo).
 
 ## Aparência (canon aprovado)
 
@@ -35,368 +35,346 @@ Total: 20 takes. Veo 3.1 Lite (10 créditos por clipe) dá 5 clipes por dia, ou 
 | 4 | 7 e 8 | 4 | 1 |
 | 5 | 9 e 10 | 4 | 1 |
 
-## Aviso sobre números
-
-O vídeo 6 é o único que fala em quanto sobra de uma fornada. É conta didática do curso ("se você vender tudo"), não resultado de Denise nem de alunas, e a legenda diz isso. Se preferir não publicar nenhum valor de sobra, troque esse vídeo.
+---
 
 ---
 
-## Vídeo 1 — Seu brigadeiro não custa 75 centavos
+## Vídeo 1 — Quem já prova e pede de novo
 
-**Texto completo (35 palavras):** Seu brigadeiro não custa setenta e cinco centavos. Isso é só o que você paga no mercado. O custo real é um e quarenta e sete. Faltou o gás, a luz e a sua hora.
+**Texto completo (30 palavras):** Se todo mundo que prova a sua comida pede de novo, você já tem o mais difícil. O resto é método: preço, padrão e venda. Eu ensino na Cozinha Lucrativa.
 
-**Frase de efeito:** **Faltou o gás, a luz e a sua hora.**
+**Frase de efeito:** **Você já tem o mais difícil.**
 
-**Texto opcional na tela (edição):** R$ 0,75 → R$ 1,47
-
-**Fonte do número:** Módulo 1, págs. 14–15. Lote de 25: material R$ 18,85 ÷ 25 = R$ 0,75; custo total R$ 36,68 ÷ 25 = R$ 1,47.
+**Texto opcional na tela (edição):** preço · padrão · venda
 
 ### Take 1 (17 palavras)
 
-Fala: Seu brigadeiro não custa setenta e cinco centavos. Isso é só o que você paga no mercado.
+Fala: Se todo mundo que prova a sua comida pede de novo, você já tem o mais difícil.
 
 Prompt para colar no Flow:
 
 ```
-Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. She holds a single chocolate brigadeiro between two fingers at chest height and looks at the camera. Looking into the camera, she says in Brazilian Portuguese, direct and calm, as if revealing something: "Seu brigadeiro não custa setenta e cinco centavos. Isso é só o que você paga no mercado." Static camera. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
+Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. Hands resting on the marble counter, a freshly baked cake on a ceramic stand beside her. Looking into the camera, she says in Brazilian Portuguese, calm, certain, a quiet smile: "Se todo mundo que prova a sua comida pede de novo, você já tem o mais difícil." Static camera. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
 ```
 
-### Take 2 (18 palavras)
+### Take 2 (13 palavras)
 
-Fala: O custo real é um e quarenta e sete. Faltou o gás, a luz e a sua hora.
+Fala: O resto é método: preço, padrão e venda. Eu ensino na Cozinha Lucrativa.
 
 Prompt para colar no Flow:
 
 ```
-Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. She sets the brigadeiro on a small plate on the marble counter and rests her hands beside it. Looking into the camera, she says in Brazilian Portuguese, calm and matter-of-fact: "O custo real é um e quarenta e sete. Faltou o gás, a luz e a sua hora." Static camera with a very slow push-in. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
+Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. A slow nod on 'preço, padrão e venda'; steady gaze on the last sentence. Looking into the camera, she says in Brazilian Portuguese, warm and firm: "O resto é método: preço, padrão e venda. Eu ensino na Cozinha Lucrativa." Static camera with a very slow push-in. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
 ```
 
-**Legenda:** A conta de quem cozinha para vender, parte 1 de 10. Seu brigadeiro não custa 75 centavos: o custo real é R$ 1,47. Próxima parte: o peso da sua hora nessa conta. Denise é uma personagem virtual criada com IA. Valores de exemplo do método do curso; os seus custos podem ser diferentes.
+**Legenda:** Se todo mundo que prova a sua comida pede de novo, você já tem o mais difícil. O resto é método, e a Cozinha Lucrativa ensina. Denise é uma personagem virtual criada com IA.
 
-**Hashtags:** #cozinhalucrativa #confeitariacaseira #precificacao #rendaextra
+**Hashtags:** #cozinhalucrativa #confeitariacaseira #empreenderemcasa #rendaextra
 
 ---
 
-## Vídeo 2 — A sua hora na conta
+## Vídeo 2 — Fui demitida
 
-**Texto completo (33 palavras):** Uma fornada de brigadeiros custa trinta e seis reais e sessenta e oito. Quinze são a sua hora. É a parte que muita gente esquece de cobrar. E ela é o seu salário.
+**Texto completo (29 palavras):** Fui demitida. Tinha duzentos reais e uma receita. O que mudou tudo não foi a receita. Foi aprender preço, padrão e venda. Foi isso que virou a Cozinha Lucrativa.
 
-**Frase de efeito:** **E ela é o seu salário.**
+**Frase de efeito:** **Não foi a receita que mudou tudo.**
 
-**Texto opcional na tela (edição):** R$ 36,68 · R$ 15 = a sua hora
-
-**Fonte do número:** Módulo 1, pág. 15. Mão de obra R$ 15 de um custo de R$ 36,68 (41%).
-
-### Take 1 (18 palavras)
-
-Fala: Uma fornada de brigadeiros custa trinta e seis reais e sessenta e oito. Quinze são a sua hora.
-
-Prompt para colar no Flow:
-
-```
-Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. A small closed notebook and a pen lie on the counter beside her; her hands rest on the counter. Looking into the camera, she says in Brazilian Portuguese, direct and clear: "Uma fornada de brigadeiros custa trinta e seis reais e sessenta e oito. Quinze são a sua hora." Static camera. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
-```
-
-### Take 2 (15 palavras)
-
-Fala: É a parte que muita gente esquece de cobrar. E ela é o seu salário.
-
-Prompt para colar no Flow:
-
-```
-Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. Steady gaze, a slight nod on the last sentence. Looking into the camera, she says in Brazilian Portuguese, firm and kind: "É a parte que muita gente esquece de cobrar. E ela é o seu salário." Static camera with a very slow push-in. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
-```
-
-**Legenda:** A conta de quem cozinha para vender, parte 2 de 10. R$ 15 dos R$ 36,68 de uma fornada são a sua hora. Próxima parte: quanto cobrar. Denise é uma personagem virtual criada com IA. Valores de exemplo do método do curso; os seus custos podem ser diferentes.
-
-**Hashtags:** #cozinhalucrativa #confeitariacaseira #precificacao #rendaextra
-
----
-
-## Vídeo 3 — Quanto cobrar
-
-**Texto completo (33 palavras):** Quanto cobrar por um brigadeiro que custou um e quarenta e sete, já com a sua hora? Para ter sessenta por cento de margem: três e setenta. Cobrar menos é abrir mão dela.
-
-**Frase de efeito:** **Cobrar menos é abrir mão dela.**
-
-**Texto opcional na tela (edição):** R$ 1,47 → R$ 3,70 (60% de margem)
-
-**Fonte do número:** Módulo 1, págs. 14–15. R$ 1,47 ÷ (1 − 0,60) = R$ 3,67, arredondado para R$ 3,70 no curso.
-
-### Take 1 (17 palavras)
-
-Fala: Quanto cobrar por um brigadeiro que custou um e quarenta e sete, já com a sua hora?
-
-Prompt para colar no Flow:
-
-```
-Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. Hands rest on the marble counter; she asks the question straight to the camera and holds a short silence after it. Looking into the camera, she says in Brazilian Portuguese, direct and curious: "Quanto cobrar por um brigadeiro que custou um e quarenta e sete, já com a sua hora?" Static camera. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
-```
-
-### Take 2 (16 palavras)
-
-Fala: Para ter sessenta por cento de margem: três e setenta. Cobrar menos é abrir mão dela.
-
-Prompt para colar no Flow:
-
-```
-Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. She gives a slow nod after 'três e setenta'. Looking into the camera, she says in Brazilian Portuguese, firm and clear: "Para ter sessenta por cento de margem: três e setenta. Cobrar menos é abrir mão dela." Static camera with a very slow push-in. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
-```
-
-**Legenda:** A conta de quem cozinha para vender, parte 3 de 10. Para 60% de margem, o brigadeiro de R$ 1,47 sai a R$ 3,70. Próxima parte: o que responder quando disserem que está caro. Denise é uma personagem virtual criada com IA. Valores de exemplo do método do curso; os seus custos podem ser diferentes.
-
-**Hashtags:** #cozinhalucrativa #confeitariacaseira #precificacao #rendaextra
-
----
-
-## Vídeo 4 — Parece caro?
-
-**Texto completo (31 palavras):** Quatro brigadeiros numa caixinha, quinze reais. Parece caro? Menos de três reais disso são ingredientes. O resto é embalagem, gás, luz, a sua hora e o que mantém o negócio vivo.
-
-**Frase de efeito:** **Menos de três reais disso são ingredientes.**
-
-**Texto opcional na tela (edição):** R$ 15 · ingredientes: menos de R$ 3
-
-**Fonte do número:** Módulo 1, págs. 15–16. 4 × R$ 3,70 ≈ R$ 15. Ingredientes por brigadeiro ≈ R$ 0,70; para 4, ≈ R$ 2,82.
-
-### Take 1 (15 palavras)
-
-Fala: Quatro brigadeiros numa caixinha, quinze reais. Parece caro? Menos de três reais disso são ingredientes.
-
-Prompt para colar no Flow:
-
-```
-Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. A small kraft gift box with four brigadeiros sits on the counter in front of her; she glances at it, then at the camera. Looking into the camera, she says in Brazilian Portuguese, direct, with a hint of challenge: "Quatro brigadeiros numa caixinha, quinze reais. Parece caro? Menos de três reais disso são ingredientes." Static camera. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
-```
-
-### Take 2 (16 palavras)
-
-Fala: O resto é embalagem, gás, luz, a sua hora e o que mantém o negócio vivo.
-
-Prompt para colar no Flow:
-
-```
-Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. She rests one hand lightly beside the box, holding the gaze, a small smile at the end. Looking into the camera, she says in Brazilian Portuguese, calm and firm: "O resto é embalagem, gás, luz, a sua hora e o que mantém o negócio vivo." Static camera with a very slow push-in. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
-```
-
-**Legenda:** A conta de quem cozinha para vender, parte 4 de 10. Quatro brigadeiros por R$ 15: menos de R$ 3 são ingredientes. Próxima parte: a conta das cinco gramas. Denise é uma personagem virtual criada com IA. Valores de exemplo do método do curso; os seus custos podem ser diferentes.
-
-**Hashtags:** #cozinhalucrativa #confeitariacaseira #precificacao #rendaextra
-
----
-
-## Vídeo 5 — Cinco gramas
-
-**Texto completo (35 palavras):** Cinco gramas a mais em cada brigadeiro parece nada. Num cento, é meio quilo de doce de graça. O que mais me poupou dinheiro foi uma balança de uns quarenta reais. O olhômetro sai caro.
-
-**Frase de efeito:** **O olhômetro sai caro.**
-
-**Texto opcional na tela (edição):** 5 g × 100 = 500 g
-
-**Fonte do número:** Módulo 1, págs. 5–6. 5 g × 100 brigadeiros = 500 g; balança digital de R$ 30 a R$ 45.
-
-### Take 1 (18 palavras)
-
-Fala: Cinco gramas a mais em cada brigadeiro parece nada. Num cento, é meio quilo de doce de graça.
-
-Prompt para colar no Flow:
-
-```
-Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. A small digital kitchen scale sits on the counter in front of her, display not legible; she looks at the camera. Looking into the camera, she says in Brazilian Portuguese, matter-of-fact, with a touch of irony: "Cinco gramas a mais em cada brigadeiro parece nada. Num cento, é meio quilo de doce de graça." Static camera. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
-```
-
-### Take 2 (17 palavras)
-
-Fala: O que mais me poupou dinheiro foi uma balança de uns quarenta reais. O olhômetro sai caro.
-
-Prompt para colar no Flow:
-
-```
-Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. She rests one hand beside the scale; a small smile on the last sentence. Looking into the camera, she says in Brazilian Portuguese, warm and direct: "O que mais me poupou dinheiro foi uma balança de uns quarenta reais. O olhômetro sai caro." Static camera with a very slow push-in. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
-```
-
-**Legenda:** A conta de quem cozinha para vender, parte 5 de 10. 5 gramas a mais por brigadeiro viram meio quilo num cento. Próxima parte: quanto sobra de uma fornada. Denise é uma personagem virtual criada com IA.
-
-**Hashtags:** #cozinhalucrativa #confeitariacaseira #precificacao #rendaextra
-
----
-
-## Vídeo 6 — Quanto uma fornada deixa
-
-**Texto completo (35 palavras):** Se você vender os vinte e cinco brigadeiros a três e setenta, entram noventa e dois e cinquenta. Descontando material, gás, luz e a sua hora, sobram quase cinquenta e seis reais. É o começo.
-
-**Frase de efeito:** **É o começo.**
-
-**Texto opcional na tela (edição):** 25 × R$ 3,70 = R$ 92,50 → sobram ≈ R$ 55,82
-
-**Fonte do número:** Módulo 1, pág. 15. 25 × R$ 3,70 = R$ 92,50; R$ 92,50 − R$ 36,68 = R$ 55,82. Exemplo didático, não é promessa de ganho.
-
-### Take 1 (18 palavras)
-
-Fala: Se você vender os vinte e cinco brigadeiros a três e setenta, entram noventa e dois e cinquenta.
-
-Prompt para colar no Flow:
-
-```
-Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. A tray of brigadeiros in pleated paper cups sits on the counter; her hands rest beside it. Looking into the camera, she says in Brazilian Portuguese, calm and clear: "Se você vender os vinte e cinco brigadeiros a três e setenta, entram noventa e dois e cinquenta." Static camera. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
-```
-
-### Take 2 (17 palavras)
-
-Fala: Descontando material, gás, luz e a sua hora, sobram quase cinquenta e seis reais. É o começo.
-
-Prompt para colar no Flow:
-
-```
-Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. She softens, gives a small smile and a slow nod on the last sentence. Looking into the camera, she says in Brazilian Portuguese, honest and encouraging: "Descontando material, gás, luz e a sua hora, sobram quase cinquenta e seis reais. É o começo." Static camera with a very slow push-in. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
-```
-
-**Legenda:** A conta de quem cozinha para vender, parte 6 de 10. Uma fornada inteira vendida a R$ 3,70 deixa quase R$ 56 depois de material, gás, luz e da sua hora. Conta de exemplo, não promessa. Próxima parte: por que padronizar. Denise é uma personagem virtual criada com IA. Valores de exemplo do método do curso; os seus custos podem ser diferentes.
-
-**Hashtags:** #cozinhalucrativa #confeitariacaseira #precificacao #rendaextra
-
----
-
-## Vídeo 7 — Igual à última vez
-
-**Texto completo (30 palavras):** Duas encomendas do mesmo bolo. Uma sai alta, a outra sai baixa. O cliente repara. Quem compra confia que vai ser igual à última vez. Receita em gramas garante isso.
-
-**Frase de efeito:** **Receita em gramas garante isso.**
-
-**Texto opcional na tela (edição):** (sem texto)
-
-**Fonte do número:** Módulo 1, págs. 5 e 9. Ficha técnica e padronização em gramas.
-
-### Take 1 (15 palavras)
-
-Fala: Duas encomendas do mesmo bolo. Uma sai alta, a outra sai baixa. O cliente repara.
-
-Prompt para colar no Flow:
-
-```
-Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. Two cakes on the counter, one slightly taller than the other; she glances at them, then at the camera. Looking into the camera, she says in Brazilian Portuguese, direct and observant: "Duas encomendas do mesmo bolo. Uma sai alta, a outra sai baixa. O cliente repara." Static camera. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
-```
-
-### Take 2 (15 palavras)
-
-Fala: Quem compra confia que vai ser igual à última vez. Receita em gramas garante isso.
-
-Prompt para colar no Flow:
-
-```
-Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. Steady gaze, a slight nod on the last sentence. Looking into the camera, she says in Brazilian Portuguese, firm and warm: "Quem compra confia que vai ser igual à última vez. Receita em gramas garante isso." Static camera with a very slow push-in. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
-```
-
-**Legenda:** A conta de quem cozinha para vender, parte 7 de 10. Quem compra confia que vai ser igual à última vez. Receita em gramas garante isso. Próxima parte: onde está o seu primeiro cliente. Denise é uma personagem virtual criada com IA.
-
-**Hashtags:** #cozinhalucrativa #confeitariacaseira #precificacao #rendaextra
-
----
-
-## Vídeo 8 — O primeiro cliente
-
-**Texto completo (34 palavras):** Seu primeiro cliente provavelmente não está nas redes. Está no seu prédio ou no seu trabalho. Quem te conhece, quem você vê toda semana e as empresas do bairro. São três círculos, nessa ordem.
-
-**Frase de efeito:** **São três círculos, nessa ordem.**
-
-**Texto opcional na tela (edição):** 1 quem te conhece · 2 quem você vê · 3 empresas do bairro
-
-**Fonte do número:** Módulo 1, pág. 18. Os três círculos de venda imediata: íntimo, de rotina e corporativo.
+**Texto opcional na tela (edição):** preço · padrão · venda
 
 ### Take 1 (16 palavras)
 
-Fala: Seu primeiro cliente provavelmente não está nas redes. Está no seu prédio ou no seu trabalho.
+Fala: Fui demitida. Tinha duzentos reais e uma receita. O que mudou tudo não foi a receita.
 
 Prompt para colar no Flow:
 
 ```
-Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. She leans slightly toward the camera, hands on the marble counter. Looking into the camera, she says in Brazilian Portuguese, direct and conversational: "Seu primeiro cliente provavelmente não está nas redes. Está no seu prédio ou no seu trabalho." Static camera. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
+Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. She looks down at her hands for a moment, then lifts her eyes to the camera. Looking into the camera, she says in Brazilian Portuguese, honest and steady, a little emotion: "Fui demitida. Tinha duzentos reais e uma receita. O que mudou tudo não foi a receita." Static camera. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
 ```
 
-### Take 2 (18 palavras)
+### Take 2 (13 palavras)
 
-Fala: Quem te conhece, quem você vê toda semana e as empresas do bairro. São três círculos, nessa ordem.
+Fala: Foi aprender preço, padrão e venda. Foi isso que virou a Cozinha Lucrativa.
 
 Prompt para colar no Flow:
 
 ```
-Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. Steady gaze, hands slightly open on the counter, a small nod on the last words. Looking into the camera, she says in Brazilian Portuguese, clear and encouraging: "Quem te conhece, quem você vê toda semana e as empresas do bairro. São três círculos, nessa ordem." Static camera with a very slow push-in. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
+Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. A small determined smile and a slow nod. Looking into the camera, she says in Brazilian Portuguese, firm and warm, growing confidence: "Foi aprender preço, padrão e venda. Foi isso que virou a Cozinha Lucrativa." Static camera with a very slow push-in. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
 ```
 
-**Legenda:** A conta de quem cozinha para vender, parte 8 de 10. O primeiro cliente costuma estar mais perto do que você imagina: quem te conhece, quem você vê toda semana e as empresas do bairro. Próxima parte: a etiqueta de menos de 15 centavos. Denise é uma personagem virtual criada com IA.
+**Legenda:** Comecei com duzentos reais e uma receita. O que mudou tudo foi aprender preço, padrão e venda, e é isso que a Cozinha Lucrativa ensina. História da personagem. Denise é uma personagem virtual criada com IA.
 
-**Hashtags:** #cozinhalucrativa #confeitariacaseira #precificacao #rendaextra
+**Hashtags:** #cozinhalucrativa #confeitariacaseira #empreenderemcasa #rendaextra
 
 ---
 
-## Vídeo 9 — Menos de quinze centavos
+## Vídeo 3 — Amor que dá prejuízo
 
-**Texto completo (32 palavras):** Uma etiqueta com o seu nome, a data e a validade custa menos de quinze centavos. Com ela, o cliente sabe de quem é, quando foi feito e como pedir de novo.
+**Texto completo (29 palavras):** Cozinhar com amor e pagar tudo do próprio bolso não é generosidade. É prejuízo bem-intencionado. Com método, o mesmo amor pode pagar as suas contas. Eu te mostro como.
 
-**Frase de efeito:** **Como pedir de novo.**
+**Frase de efeito:** **Amor com método paga as contas.**
 
-**Texto opcional na tela (edição):** etiqueta: menos de R$ 0,15
+**Texto opcional na tela (edição):** amor + método
 
-**Fonte do número:** Módulo 1, pág. 17. Rótulo com nome, produto, fabricação, validade e WhatsApp; etiqueta por menos de R$ 0,15. Confira o preço na gráfica da sua cidade antes de publicar.
+### Take 1 (15 palavras)
 
-### Take 1 (16 palavras)
-
-Fala: Uma etiqueta com o seu nome, a data e a validade custa menos de quinze centavos.
+Fala: Cozinhar com amor e pagar tudo do próprio bolso não é generosidade. É prejuízo bem-intencionado.
 
 Prompt para colar no Flow:
 
 ```
-Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. A small sheet of blank kraft stickers lies on the counter; she glances at it, then at the camera. Looking into the camera, she says in Brazilian Portuguese, matter-of-fact: "Uma etiqueta com o seu nome, a data e a validade custa menos de quinze centavos." Static camera. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
+Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. She rests both hands on the counter and leans in slightly. Looking into the camera, she says in Brazilian Portuguese, direct, kind but firm: "Cozinhar com amor e pagar tudo do próprio bolso não é generosidade. É prejuízo bem-intencionado." Static camera. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
+```
+
+### Take 2 (14 palavras)
+
+Fala: Com método, o mesmo amor pode pagar as suas contas. Eu te mostro como.
+
+Prompt para colar no Flow:
+
+```
+Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. She straightens up, soft smile, slow nod. Looking into the camera, she says in Brazilian Portuguese, warm and sure: "Com método, o mesmo amor pode pagar as suas contas. Eu te mostro como." Static camera with a very slow push-in. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
+```
+
+**Legenda:** Amor sem conta vira prejuízo. Amor com método pode pagar as suas contas. Denise é uma personagem virtual criada com IA.
+
+**Hashtags:** #cozinhalucrativa #confeitariacaseira #empreenderemcasa #rendaextra
+
+---
+
+## Vídeo 4 — O primeiro passo
+
+**Texto completo (32 palavras):** Você não precisa de loja nem de sócio para começar. Precisa da cozinha que já tem. E de um método para transformar receita em produto. É para isso que eu estou aqui.
+
+**Frase de efeito:** **Você já tem a cozinha.**
+
+**Texto opcional na tela (edição):** a cozinha que você já tem
+
+### Take 1 (16 palavras)
+
+Fala: Você não precisa de loja nem de sócio para começar. Precisa da cozinha que já tem.
+
+Prompt para colar no Flow:
+
+```
+Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. She opens one hand toward the kitchen around her, then looks back at the camera. Looking into the camera, she says in Brazilian Portuguese, encouraging and clear: "Você não precisa de loja nem de sócio para começar. Precisa da cozinha que já tem." Static camera. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
 ```
 
 ### Take 2 (16 palavras)
 
-Fala: Com ela, o cliente sabe de quem é, quando foi feito e como pedir de novo.
+Fala: E de um método para transformar receita em produto. É para isso que eu estou aqui.
 
 Prompt para colar no Flow:
 
 ```
-Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. Hands on the counter, a small smile on the last sentence. Looking into the camera, she says in Brazilian Portuguese, warm and sure: "Com ela, o cliente sabe de quem é, quando foi feito e como pedir de novo." Static camera with a very slow push-in. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
+Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. Hand to chest on 'eu estou aqui', gentle smile. Looking into the camera, she says in Brazilian Portuguese, warm and confident: "E de um método para transformar receita em produto. É para isso que eu estou aqui." Static camera with a very slow push-in. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
 ```
 
-**Legenda:** A conta de quem cozinha para vender, parte 9 de 10. Etiqueta com nome, data e validade: menos de R$ 0,15. Próxima parte: renda extra ou principal? Denise é uma personagem virtual criada com IA. Valores de exemplo do método do curso; os seus custos podem ser diferentes.
+**Legenda:** O primeiro passo começa na cozinha que você já tem. A Cozinha Lucrativa mostra como transformar receita em produto. Denise é uma personagem virtual criada com IA.
 
-**Hashtags:** #cozinhalucrativa #confeitariacaseira #precificacao #rendaextra
+**Hashtags:** #cozinhalucrativa #confeitariacaseira #empreenderemcasa #rendaextra
 
 ---
 
-## Vídeo 10 — Renda extra ou principal
+## Vídeo 5 — Preço sem vergonha
 
-**Texto completo (32 palavras):** Renda extra pode ser uma fornada por semana, bem calculada. Renda principal vem da mesma conta, repetida. Não existe atalho: existe conta. Eu ensino essa conta, receita por receita, na Cozinha Lucrativa.
+**Texto completo (30 palavras):** Cobrar o preço certo não é ser cara. É respeitar cada hora que você passou em pé. Eu te ensino a calcular esse preço e a falar dele sem vergonha.
 
-**Frase de efeito:** **Não existe atalho: existe conta.**
+**Frase de efeito:** **Cobrar certo é respeitar.**
 
-**Texto opcional na tela (edição):** (logo Cozinha Lucrativa no final, opcional)
-
-**Fonte do número:** Fecho da série. Convite orgânico ao curso, sem promessa de ganho.
+**Texto opcional na tela (edição):** cobrar certo
 
 ### Take 1 (17 palavras)
 
-Fala: Renda extra pode ser uma fornada por semana, bem calculada. Renda principal vem da mesma conta, repetida.
+Fala: Cobrar o preço certo não é ser cara. É respeitar cada hora que você passou em pé.
 
 Prompt para colar no Flow:
 
 ```
-Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. Hands resting on the marble counter, steady and calm. Looking into the camera, she says in Brazilian Portuguese, calm and honest: "Renda extra pode ser uma fornada por semana, bem calculada. Renda principal vem da mesma conta, repetida." Static camera. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
+Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. Steady gaze, hands folded on the counter. Looking into the camera, she says in Brazilian Portuguese, firm and dignified: "Cobrar o preço certo não é ser cara. É respeitar cada hora que você passou em pé." Static camera. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
+```
+
+### Take 2 (13 palavras)
+
+Fala: Eu te ensino a calcular esse preço e a falar dele sem vergonha.
+
+Prompt para colar no Flow:
+
+```
+Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. A slow nod and a small smile. Looking into the camera, she says in Brazilian Portuguese, warm and decisive: "Eu te ensino a calcular esse preço e a falar dele sem vergonha." Static camera with a very slow push-in. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
+```
+
+**Legenda:** Cobrar o preço certo é respeitar o seu tempo. Na Cozinha Lucrativa você aprende a calcular e a falar de preço sem vergonha. Denise é uma personagem virtual criada com IA.
+
+**Hashtags:** #cozinhalucrativa #confeitariacaseira #empreenderemcasa #rendaextra
+
+---
+
+## Vídeo 6 — Tempo que vale
+
+**Texto completo (29 palavras):** Quem não calcula o próprio tempo acaba pagando para trabalhar. Muita gente faz isso por anos. Na Cozinha Lucrativa você aprende a conta que muda isso. Receita por receita.
+
+**Frase de efeito:** **Quem não calcula, paga para trabalhar.**
+
+**Texto opcional na tela (edição):** seu tempo tem preço
+
+### Take 1 (16 palavras)
+
+Fala: Quem não calcula o próprio tempo acaba pagando para trabalhar. Muita gente faz isso por anos.
+
+Prompt para colar no Flow:
+
+```
+Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. She taps one finger once on the marble counter, then looks at the camera. Looking into the camera, she says in Brazilian Portuguese, direct, a serious tone: "Quem não calcula o próprio tempo acaba pagando para trabalhar. Muita gente faz isso por anos." Static camera. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
+```
+
+### Take 2 (13 palavras)
+
+Fala: Na Cozinha Lucrativa você aprende a conta que muda isso. Receita por receita.
+
+Prompt para colar no Flow:
+
+```
+Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. A slow nod on the last words. Looking into the camera, she says in Brazilian Portuguese, calm and sure: "Na Cozinha Lucrativa você aprende a conta que muda isso. Receita por receita." Static camera with a very slow push-in. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
+```
+
+**Legenda:** Quem não calcula o próprio tempo acaba pagando para trabalhar. A Cozinha Lucrativa ensina a conta, receita por receita. Denise é uma personagem virtual criada com IA.
+
+**Hashtags:** #cozinhalucrativa #confeitariacaseira #empreenderemcasa #rendaextra
+
+---
+
+## Vídeo 7 — Do elogio à encomenda
+
+**Texto completo (28 palavras):** Elogio é bonito, mas não paga conta. Encomenda paga. A diferença entre os dois é método. Eu aprendi esse caminho e ensino cada passo dele. Venha aprender comigo.
+
+**Frase de efeito:** **Elogio é bonito. Encomenda paga.**
+
+**Texto opcional na tela (edição):** elogio → encomenda
+
+### Take 1 (16 palavras)
+
+Fala: Elogio é bonito, mas não paga conta. Encomenda paga. A diferença entre os dois é método.
+
+Prompt para colar no Flow:
+
+```
+Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. A plate with a slice of cake in front of her; she glances at it and at the camera. Looking into the camera, she says in Brazilian Portuguese, direct, with a small smile: "Elogio é bonito, mas não paga conta. Encomenda paga. A diferença entre os dois é método." Static camera. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
+```
+
+### Take 2 (12 palavras)
+
+Fala: Eu aprendi esse caminho e ensino cada passo dele. Venha aprender comigo.
+
+Prompt para colar no Flow:
+
+```
+Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. She opens her hand toward the camera in a gentle invitation. Looking into the camera, she says in Brazilian Portuguese, warm and inviting: "Eu aprendi esse caminho e ensino cada passo dele. Venha aprender comigo." Static camera with a very slow push-in. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
+```
+
+**Legenda:** Elogio é bonito. Encomenda paga. A diferença é método, e a Cozinha Lucrativa ensina cada passo. Denise é uma personagem virtual criada com IA.
+
+**Hashtags:** #cozinhalucrativa #confeitariacaseira #empreenderemcasa #rendaextra
+
+---
+
+## Vídeo 8 — Renda extra ou principal
+
+**Texto completo (30 palavras):** Para algumas pessoas, o doce vira renda extra. Para outras, vira a renda principal. Nos dois casos, o começo é igual: receita em gramas, preço certo e coragem. Eu ensino.
+
+**Frase de efeito:** **A mesma base serve aos dois.**
+
+**Texto opcional na tela (edição):** extra ou principal · mesmo começo
+
+### Take 1 (14 palavras)
+
+Fala: Para algumas pessoas, o doce vira renda extra. Para outras, vira a renda principal.
+
+Prompt para colar no Flow:
+
+```
+Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. Hands resting on the marble counter. Looking into the camera, she says in Brazilian Portuguese, calm and honest: "Para algumas pessoas, o doce vira renda extra. Para outras, vira a renda principal." Static camera. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
+```
+
+### Take 2 (16 palavras)
+
+Fala: Nos dois casos, o começo é igual: receita em gramas, preço certo e coragem. Eu ensino.
+
+Prompt para colar no Flow:
+
+```
+Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. Steady gaze, a slight nod on 'Eu ensino'. Looking into the camera, she says in Brazilian Portuguese, warm and firm: "Nos dois casos, o começo é igual: receita em gramas, preço certo e coragem. Eu ensino." Static camera with a very slow push-in. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
+```
+
+**Legenda:** Renda extra ou principal: o começo é o mesmo. Receita em gramas, preço certo e coragem. Sem promessa de ganho, o resultado depende de você. Denise é uma personagem virtual criada com IA.
+
+**Hashtags:** #cozinhalucrativa #confeitariacaseira #empreenderemcasa #rendaextra
+
+---
+
+## Vídeo 9 — Primeira encomenda
+
+**Texto completo (28 palavras):** Ninguém se sente pronta antes da primeira venda. A confiança vem depois da primeira encomenda. Chegue nela com receita padronizada e preço certo. É isso que eu ensino.
+
+**Frase de efeito:** **A confiança vem depois.**
+
+**Texto opcional na tela (edição):** primeira encomenda
+
+### Take 1 (15 palavras)
+
+Fala: Ninguém se sente pronta antes da primeira venda. A confiança vem depois da primeira encomenda.
+
+Prompt para colar no Flow:
+
+```
+Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. A soft knowing smile, shoulders relaxed. Looking into the camera, she says in Brazilian Portuguese, encouraging and real: "Ninguém se sente pronta antes da primeira venda. A confiança vem depois da primeira encomenda." Static camera. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
+```
+
+### Take 2 (13 palavras)
+
+Fala: Chegue nela com receita padronizada e preço certo. É isso que eu ensino.
+
+Prompt para colar no Flow:
+
+```
+Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. A confident nod. Looking into the camera, she says in Brazilian Portuguese, firm and warm: "Chegue nela com receita padronizada e preço certo. É isso que eu ensino." Static camera with a very slow push-in. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
+```
+
+**Legenda:** Ninguém se sente pronta antes da primeira venda. Chegue nela com receita padronizada e preço certo. A Cozinha Lucrativa ensina. Denise é uma personagem virtual criada com IA.
+
+**Hashtags:** #cozinhalucrativa #confeitariacaseira #empreenderemcasa #rendaextra
+
+---
+
+## Vídeo 10 — Um ano passa
+
+**Texto completo (29 palavras):** Um ano passa de qualquer jeito. A pergunta é: onde você quer estar nele? Comece pela Cozinha Lucrativa. Eu estou aqui, receita por receita, até você vender com segurança.
+
+**Frase de efeito:** **Onde você quer estar nele?**
+
+**Texto opcional na tela (edição):** Cozinha Lucrativa
+
+### Take 1 (14 palavras)
+
+Fala: Um ano passa de qualquer jeito. A pergunta é: onde você quer estar nele?
+
+Prompt para colar no Flow:
+
+```
+Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. Hands on the counter, a long steady look into the camera after the question. Looking into the camera, she says in Brazilian Portuguese, serious and caring: "Um ano passa de qualquer jeito. A pergunta é: onde você quer estar nele?" Static camera. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
 ```
 
 ### Take 2 (15 palavras)
 
-Fala: Não existe atalho: existe conta. Eu ensino essa conta, receita por receita, na Cozinha Lucrativa.
+Fala: Comece pela Cozinha Lucrativa. Eu estou aqui, receita por receita, até você vender com segurança.
 
 Prompt para colar no Flow:
 
 ```
-Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. A small warm smile and a slow nod on 'Cozinha Lucrativa'. Looking into the camera, she says in Brazilian Portuguese, warm and sure: "Não existe atalho: existe conta. Eu ensino essa conta, receita por receita, na Cozinha Lucrativa." Static camera with a very slow push-in. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
+Vertical 9:16, realistic cinematic medium shot, shallow depth of field. Denise, a 38-year-old Caucasian woman with soft wavy shoulder-length hair, light makeup, delicate gold jewelry, a deep navy apron over a white linen shirt with rolled sleeves, in a bright home pastry kitchen: polished marble counter, French doors open to a palm garden, warm natural light. A warm smile and a slow nod on the last words. Looking into the camera, she says in Brazilian Portuguese, firm, warm and decisive: "Comece pela Cozinha Lucrativa. Eu estou aqui, receita por receita, até você vender com segurança." Static camera with a very slow push-in. Her voice only, clear and warm, quiet room tone, no music. No on-screen text or subtitles, no legible writing on any object. Avoid: distorted hands, a different face.
 ```
 
-**Legenda:** A conta de quem cozinha para vender, parte 10 de 10. Renda extra ou renda principal, a conta é a mesma. A Cozinha Lucrativa ensina essa conta, receita por receita. Denise é uma personagem virtual criada com IA.
+**Legenda:** Um ano passa de qualquer jeito. Comece pela Cozinha Lucrativa, receita por receita. Denise é uma personagem virtual criada com IA.
 
-**Hashtags:** #cozinhalucrativa #confeitariacaseira #precificacao #rendaextra
+**Hashtags:** #cozinhalucrativa #confeitariacaseira #empreenderemcasa #rendaextra
 
 ---
