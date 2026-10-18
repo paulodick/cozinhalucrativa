@@ -1,26 +1,54 @@
-# Ferramenta para gerar as 20 imagens de uma vez
+# Estúdio de Avatares IA: ferramenta de geração em massa
 
 Usa o **Google AI Studio (modo Build)**, não o Flow: o Flow não cria apps nem tem fila de prompts nativa.
 
 ## 1. Prompt para criar o app (colar no AI Studio > Build)
 
+Versão 2: gerador de avatares genérico, com criação de avatar, banco local, formatos e aprovação por imagem.
+
 ```
-Crie um app web chamado "Gerador de Cenários da Denise". Interface em português do Brasil, limpa e simples, tema claro com tons de marfim, verde esmeralda e terracota.
+Crie um aplicativo web completo chamado "Estúdio de Avatares IA", em português do Brasil, para criar avatares de IA e gerar imagens em massa (até 20 por lote) mantendo sempre a mesma pessoa em cenários, roupas e formatos diferentes.
 
-OBJETIVO: gerar até 20 imagens de uma mesma personagem em cenários diferentes, de uma vez, a partir de um único texto colado, usando o modelo de imagem Gemini 2.5 Flash Image (Nano Banana) com imagens de referência.
+STACK E VISUAL
+React + TypeScript + Tailwind, SDK @google/genai, IndexedDB (biblioteca idb) como banco local e JSZip para arquivos ZIP. Visual elegante e claro, tons de marfim, verde esmeralda e terracota, títulos serifados, responsivo, acessível, com estados de carregamento, vazio e erro bem tratados.
 
-TELA:
-1. Área para enviar de 1 a 3 fotos de referência da personagem (arrastar e soltar), com miniaturas e botão de remover.
-2. Uma caixa de texto grande onde eu colo o prompt único. O formato é: um bloco "[BASE]" com o texto de identidade e, depois, blocos numerados "[1] Título", "[2] Título"... cada um com as linhas "LOOK:" e "SETTING:". O app deve ler esse formato (ignorando linhas em branco extras) e mostrar quantos cenários foram detectados.
-3. Opções: proporção 9:16 (padrão; também 1:1 e 4:5), quantidade de variações por cenário (1 ou 2, padrão 1), pausa entre chamadas em segundos (padrão 4), botão "Gerar todos" e botão "Parar".
+1. TELA INICIAL
+Dois cartões grandes lado a lado: "Criar Avatar" e "Usar Avatar Existente" (este fica desabilitado, com uma dica, se ainda não houver avatares). Abaixo, uma fileira com os avatares salvos (miniatura 3x4 + nome). Menu superior: Início, Avatares, Galeria, Configurações.
 
-COMO GERAR: para cada cenário, montar o prompt final como: texto do [BASE] + " LOOK: " + texto do LOOK + " SETTING: " + texto do SETTING. Enviar esse texto junto com TODAS as fotos de referência enviadas, para o modelo gemini-2.5-flash-image, pedindo saída em imagem na proporção escolhida. Processar um cenário por vez, em fila, com a pausa configurada. Se uma chamada falhar (erro de cota, limite de taxa ou imagem bloqueada), tentar de novo até 2 vezes com espera maior e, se continuar falhando, marcar o cenário como "falhou" mostrando a mensagem de erro em português, e seguir para o próximo.
+2. CRIAR AVATAR (página própria)
+Campos: "Nome do Avatar" (obrigatório e único); caixa grande de prompt para descrever o avatar (idade aparente, traços, cabelo, estilo); caixa opcional "Regras fixas do avatar"; duas opções marcadas por padrão: "A roupa, a maquiagem e as joias podem variar nas cenas" e "O penteado pode variar, mas a cor e o comprimento do cabelo ficam iguais".
+Abaixo, três caixas de upload (arrastar e soltar) para avatares pré-existentes, todas opcionais: "Rosto 3x4", "Corpo inteiro" e "Perfil lateral". Cada imagem enviada conta como já aprovada naquele item. Ao enviar fotos, exigir o aceite de: "Confirmo que este avatar é uma personagem virtual ou que tenho autorização da pessoa retratada."
+Geração em três etapas, nesta ordem: (1) Rosto 3x4, proporção 3:4, olhar frontal, fundo cinza claro de estúdio, luz suave; (2) Corpo inteiro, em pé e de frente, fundo neutro; (3) Perfil lateral do rosto, 90 graus, fundo neutro. As etapas 2 e 3 usam a etapa 1 aprovada, e as fotos enviadas, como referência de identidade. Cada etapa mostra a imagem e os botões "Aprovar", "Regenerar" e "Trocar por foto enviada". Se as três imagens vierem de upload, pular a geração e ir direto ao salvamento. Com as três aprovadas, o botão "Salvar avatar" grava nome, prompt, regras, opções e as 3 imagens no banco. Permitir editar, regenerar uma etapa isolada e excluir o avatar (com confirmação).
 
-RESULTADO: uma grade de cartões, um por cenário, com número, título, barra de progresso/estado (na fila, gerando, pronto, falhou), a imagem gerada, e botões "Baixar", "Gerar de novo" (só esse cenário) e "Ver prompt". Botão "Baixar todas" que gera um arquivo ZIP com os nomes 01-titulo.png, 02-titulo.png etc. Clicar na imagem abre em tamanho grande.
+3. USAR AVATAR EXISTENTE (página própria)
+Seletor com o nome e a miniatura 3x4 de cada avatar. Ao escolher, mostrar as 3 imagens-base em uma tira lateral.
+Entrada dos prompts em duas abas: "Campo único" (colar tudo de uma vez) e "Um campo por imagem" (até 20 campos editáveis, com adicionar, remover e reordenar). O campo único aceita um bloco opcional [BASE], seguido de blocos numerados como "[1] Título", "LOOK:" e "SETTING:". Também aceita parágrafos separados por linha em branco, por "---" ou em lista numerada. Mostrar "N cenários detectados" e converter tudo nos campos individuais, editáveis, antes de gerar. Avisar se passar de 20.
+Opções: formato e resolução (seção 4); variações por cenário (1 por padrão); modo "Revisar uma a uma" (padrão: gera uma imagem e espera a decisão) ou "Gerar tudo e revisar depois"; pausa entre chamadas (4 s por padrão); botões Iniciar, Pausar e Parar.
+Geração em fila, uma por vez. Cada chamada envia ao modelo as 3 imagens-base do avatar, uma instrução de identidade montada automaticamente, o texto do cenário e o formato. A instrução de identidade diz: manter rosto, olhos, nariz, boca, formato do rosto, tom de pele, idade aparente, proporções do corpo, cor e comprimento do cabelo idênticos às referências; não copiar roupa, penteado nem fundo das referências; sem texto, logotipos ou marcas d'água; mãos naturais com cinco dedos. Se "roupa pode variar" estiver ligado, roupa, maquiagem e joias seguem a descrição da cena. Se "penteado pode variar" estiver ligado, só o penteado muda, sempre com a mesma cor e o mesmo comprimento do cabelo, para parecer da mesma época.
+Cada cenário vira um cartão com número, título, estado (Na fila, Gerando, Aguardando decisão, Aprovada, Pendente, Falhou), a imagem e os botões "Aprovar", "Regenerar", "Deixar pendente" (recusa e pula para o próximo) e "Ver/editar prompt". Os pendentes ficam destacados e podem ser retomados depois com "Gerar pendentes". Ao aprovar, a imagem final é salva no banco (com avatar, prompt, formato, resolução e data) e habilita "Baixar" (PNG ou JPG, à escolha). Botão "Baixar aprovadas (ZIP)". Nome dos arquivos: avatar-01-titulo-9x16.png. A fila e os estados também ficam no banco, para retomar depois de recarregar a página.
 
-REGRAS: nunca inventar texto nas imagens; o app não altera o prompt do usuário além da montagem descrita. Guardar as fotos de referência e o texto colado no navegador (localStorage) para não perder ao recarregar. Mostrar um aviso discreto: "Imagens geradas por IA. A personagem Denise é virtual."
+4. FORMATOS (seletor com a descrição ao lado de cada opção; padrão 9:16)
+- 9:16, 1080×1920: Reels, Stories, TikTok, Shorts e Status do WhatsApp
+- 4:5, 1080×1350: Feed do Instagram (retrato) e Facebook
+- 1:1, 1080×1080: Feed do Instagram, WhatsApp e foto de perfil
+- 3:4, 1080×1440: retratos, Pinterest e capas de e-book
+- 2:3, 1080×1620: Pinterest e pôsteres
+- 16:9, 1920×1080: YouTube, miniaturas, apresentações e sites
+- 1.91:1, 1200×628: links no Facebook e LinkedIn
+Resolução: "Padrão do modelo", "HD" e "Full HD" (máximo 1080 no lado menor, 1920 no maior). Se o modelo escolhido aceitar parâmetro de tamanho maior, use a resolução nativa dele. Caso contrário, ampliar com canvas em alta qualidade e marcar a imagem como "ampliada", para que fique claro que não é resolução nativa.
 
-Quando terminar, gere o código completo e explique em poucas linhas como usar.
+5. GALERIA E CONFIGURAÇÕES
+Galeria com todas as imagens aprovadas, filtros por avatar e por formato, ver em tamanho grande, baixar, excluir e "Gerar de novo com o mesmo prompt".
+Configurações: modelo de imagem (campo de texto, padrão gemini-2.5-flash-image, aceitando outro ID de modelo), chave de API (usar a do ambiente do AI Studio; se não houver, campo local), pausa entre chamadas, número de tentativas e formato padrão de arquivo. Botões "Exportar backup" e "Importar backup" (ZIP com avatares, imagens e prompts), porque o armazenamento do navegador pode ser apagado.
+
+6. ROBUSTEZ
+Tentar de novo até 2 vezes com espera crescente (backoff) em erros de cota, limite de taxa ou resposta sem imagem. Em imagem bloqueada por segurança, marcar "Falhou" com mensagem clara em português e seguir para o próximo. Nenhum erro pode travar a fila. Botão Cancelar sempre disponível. Validar tudo que o usuário digita.
+
+7. TRANSPARÊNCIA
+Rodapé fixo: "Imagens geradas por IA." Guardar no banco que cada imagem é gerada por IA. Não alterar o prompt do usuário além da montagem descrita acima.
+
+ENTREGA
+Código completo e funcionando, com instruções curtas de uso. No final, liste em poucas linhas o que depende de cota, custo ou do modelo escolhido, e quais suposições você fez.
 ```
 
 ## 2. Prompt único com as 20 instruções (colar na caixa de texto do app)
